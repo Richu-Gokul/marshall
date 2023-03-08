@@ -1,0 +1,270 @@
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-lt-pro-2");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica Neue LT Pro", sans-serif;
+}
+
+nav {
+  background-color: black;
+  color: #ffff;
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 26px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.logo {
+  padding-left: 30px;
+}
+.center_items ul {
+  display: flex;
+  gap: 48px;
+  list-style: none;
+  font-weight: 600;
+  padding-top: 12px;
+}
+.right_items {
+  display: flex;
+  gap: 36px;
+  padding-top: 12px;
+  padding-right: 70px;
+}
+.country h5 {
+  font-size: 15px;
+}
+.icons i {
+  padding-right: 22px;
+}
+
+.qoute {
+  text-align: center;
+  position: relative;
+  bottom: 250px;
+  color: #ffff;
+}
+.qoute h1 {
+  font-size: 40px;
+}
+.qoute p {
+  padding: 20px 0px;
+}
+.qoute button {
+  padding: 10px 28px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.section_1 {
+  height: 853px;
+}
+.section_2 {
+  /* height: 100vh; */
+  background-color: #262626;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.history {
+  padding: 36px;
+}
+
+.qoute_2 {
+  text-align: center;
+  color: #ffff;
+  line-height: 25px;
+}
+.qoute_2 h2 {
+  font-size: 40px;
+}
+.qoute_2 p {
+  padding: 20px;
+}
+.qoute_2 button {
+  padding: 15px 25px;
+  border: none;
+  font-weight: bold;
+}
+
+.qoute_3 {
+  position: absolute;
+  top: 131rem;
+  right: 174px;
+  color: #ffff;
+  text-align: center;
+}
+.qoute_3 h1 {
+  font-size: 30px;
+}
+.qoute_3 P {
+  padding: 20px 0px;
+}
+.qoute_3 button {
+  padding: 15px 35px;
+  font-weight: 600;
+}
+.img_3 {
+  height: 53rem;
+}
+.sec_4_container {
+  display: flex;
+  margin: 0;
+}
+
+.qoute_4 {
+  position: relative;
+  bottom: 460px;
+  left: 46rem;
+  height: 0px;
+  text-align: center;
+  width: 50%;
+  color: #ffff;
+}
+
+.qoute_4 h1 {
+  font-size: 30px;
+  font-weight: bolder;
+}
+.qoute_4 p {
+  padding: 20px 0px;
+}
+.qoute_4 button {
+  padding: 11px 30px 10px;
+  font-weight: bold;
+}
+.sec_5_container {
+  display: flex;
+}
+.qoute_5 {
+  position: relative;
+  bottom: 460px;
+  left: 1rem;
+  height: 0px;
+  text-align: center;
+  width: 50%;
+  color: #ffff;
+}
+
+.qoute_5 h1 {
+  font-size: 30px;
+  font-weight: bolder;
+}
+.qoute_5 p {
+  padding: 20px 0px;
+}
+.qoute_5 button {
+  padding: 11px 30px 10px;
+  font-weight: bold;
+}
+.sec_6_container {
+  display: flex;
+}
+.sub {
+  background-color: #161616;
+  color: #ffff;
+}
+.sub {
+  display: flex;
+  padding: 30px 0px;
+}
+.newsletter {
+  text-align: left;
+  padding-left: 120px;
+}
+
+.form {
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  text-align: center;
+}
+.form input {
+  padding: 14px 100px;
+  width: 226px;
+  font-size: medium;
+}
+footer {
+  background: #000000;
+  color: white;
+}
+.form button {
+  padding: 10px 40px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 120px;
+  gap: 225px;
+  font-size: small;
+}
+.list_cont {
+  line-height: 30px;
+  list-style: none;
+  padding: 50px 0px;
+}
+.list_cont li {
+  color: #7a7a7a;
+}
+.account {
+  display: flex;
+  flex-direction: column;
+  padding: 78px 158px;
+  margin-left: 40px;
+  gap: 10px;
+}
+.account p {
+  font-size: small;
+  color: #7a7a7a;
+}
+
+.account button {
+  padding: 15px 30px;
+  font-weight: bolder;
+  font-size: 14px;
+}
+.payments {
+  text-align: center;
+}
+.payment_icon img {
+  padding: 10px;
+}
+.payments p {
+  padding: 10px;
+  color: #7a7a7a;
+  font-size: 15px;
+}
+.social {
+  padding: 100px 0px;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.footer_icon i {
+  padding: 18px;
+}
+
+.social p {
+  font-size: 13px;
+}
+.social img {
+  padding-right: 112px;
+}
+/* efftects */
+
+.center_items ul li:hover {
+  border-bottom: 4px solid #7a7a7a;
+}
